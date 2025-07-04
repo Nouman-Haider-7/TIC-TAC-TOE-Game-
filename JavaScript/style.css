@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #646F58;
+    text-align: center;
+}
+h1{
+    font-size: 900;
+    font-weight: bold;
+    text-decoration:dotted;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    color: #504b3a;
+    background-color: azure;
+    border:2px solid #504B3A;
+    border-radius: 4vmin;
+    box-shadow: 0 0 1rem #dde392;
+    font-size: 8vmin;
+}
+#reset{
+    padding: 1rem;
+    font-size: 700;
+    font-weight: 600;
+    color: #504b3a;
+    border-radius: 1rem;
+    border:2px solid #504B3A;
+    box-shadow: 0 0 1rem #dde392;
+}
+#reset:hover{
+    background-color: #dde392;
+}
+/*********FOOTER**********/
+.footer{
+    height: 15vmin;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dde392;
+    margin-top: 100px;
+    padding: 10px;
+}
+#myself{
+    height: 35px;
+    width: 250px;
+    padding-top: 5px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: #7d8570;
+}
+#myself:hover{
+    background-color:#646F58;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d8570;
+    height: 35px;
+    width: 250px;
+    padding-top: 5px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+.intro:hover{
+    background-color:#646F58;
+}
+.intro a{
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d8570;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+    border: 1.5px solid black;
+   border-radius: 10px;
+}
+.contact:hover{
+    background-color:#646F58;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+/***** Upper *****/
+#new-btn{
+    padding: 1rem;
+    font-size: 700;
+    font-weight: 600;
+    color: #504b3a;
+    border-radius: 1rem;
+    border:2px solid #504B3A;
+    box-shadow: 0 0 1rem #dde392;
+}
+#new-btn:hover{
+    background-color: #dde392;
+}
+#msg{
+    color: yellowgreen;
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
